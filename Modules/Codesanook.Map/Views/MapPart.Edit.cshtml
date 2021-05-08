@@ -1,0 +1,16 @@
+@model MapPartViewModel
+
+<h3>Location</h3>
+<div class="form-group" asp-validation-class-for="Latitude">
+    <label asp-for="Latitude">
+        @T[nameof(Model.Latitude)]
+    </label>
+    <input asp-for="Latitude" class="form-control" />
+</div>
+
+<div class="form-group" asp-validation-class-for="Longitude">
+    <label asp-for="Longitude">
+        @T[nameof(Model.Longitude)]
+    </label>
+    <input asp-for="Longitude" class="form-control" />
+</div>
