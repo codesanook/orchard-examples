@@ -350,5 +350,5 @@ MigrationBackup/
 .ionide/
 
 App_Data
-
 is-cache
+.placeholder
